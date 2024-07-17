@@ -25,12 +25,12 @@ nav a {
 }
 
 .hero img {
-    max-width: 50%;
+    width: 50%;
     margin-right: 20px;
 }
 
 .hero-content {
-    max-width: 50%;
+    width: 50%;
 }
 
 .hero-content h1 {
@@ -42,9 +42,14 @@ nav a {
     margin-bottom: 20px;
 }
 
+.thumbnails {
+    display: flex;
+    gap: 10px;
+}
+
 .thumbnails img {
     width: 100px;
-    margin: 5px;
+    height: auto;
 }
 
 .sidebar {
@@ -54,6 +59,7 @@ nav a {
     right: 0;
     top: 50%;
     transform: translateY(-50%);
+    font-size: 1.5em;
 }
 
 .content {
